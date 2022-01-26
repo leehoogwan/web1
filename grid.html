@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+   <title></title>
+   <style>
+     #grid{
+       border: 5px solid pink;
+       display:grid;
+       grid-template-columns: 150px 1fr;
+     }
+     div{
+       border:5px solid gray;
+     }
+     </style>
+  </head>
+  <body>
+    <!--아무의미 없는 그냥 디자인의 용도로만 쓰는 div tag-->
+    <!-- block level element이기 때문에 줄바꿈이 된다-->
+    <!-- grid를 쓰기 위해서는 부모 태그가 필요하다-->
+    <div id="grid">
+      <div>NAVIGATION</div>
+      <div>ARTICLE</div>
+    </div>
+    <!-- span element는 inline element로 줄바꿈은 안된다.
+      <span>NAVIGATE</span>-->
+  </body>
+    </html>
